@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* specifies body color */
+body {
+    background-color: darkgray;
+}
+/*header element specifying padding, font family, background-color, and text color */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: slategray;
+    color: #ffffff;
+}
+
+/* makes title inside header display as block and gives it a font size */
+h1 {
+    display: inline-block;
+    background-color: cyan;
+    padding: 30px 30px 30px 70px;
+    color: slategray;
+    font-size: 48px;
+}
+/* gives charecteristics to rest of header blocks */
+header nav button {
+    align-items: baseline;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    
+}
+
+/* ol makes list inside header order matter */
+header nav ol {
+    list-style-type: none;
+}
+
+header nav ol li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ol li a {
+    color: cyan;
+    text-decoration: none;
+    border-bottom: 5px solid cyan;
+}
+/*header stops*/
+/*figure*/
+figure {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/Green-Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*figure stops*/
+
+Article {
+        float: left;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+.About-Me{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.About-Me h2{
+    padding: 5%;
+    float: right;
+    border-right: 5px solid cyan;
+}
+.About-Me p{
+    
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 24px;
+}
+.Work{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}     
+.Work h2{
+    padding: 5.53%;
+    float: right;
+    border-right: 5px solid cyan;
+}
+.Work ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.Work ol li a{
+    display: flex;
+    text-align: center;
+    background-color: navy;
+    color: cyan;
+    padding: 2%;
+    margin: 2%
+}
+.Work ol li a img{
+    align-items: center;
+    border: 10px solid cyan;
+    margin: 5%
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: slategray;
+}
+
+/* makes title inside header display as block and gives it a font size */
+footer h2 {
+    display: inline-block;
+    background-color: cyan;
+    padding: 7px;
+    color: slategray;
+    font-size: 24px;
+}
+/* gives charecteristics to rest of header blocks */
+footer ul li{
+    align-items: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    
+}
