@@ -1,6 +1,7 @@
 # UT-BootCamp-Assignment-2
 2nd Assignment of Bootcamp course
+Updated portfolio to implement bootstrap and create multiple html pages on one site while also linking my first project
+![image](https://user-images.githubusercontent.com/26091935/199380822-4e614331-4e08-403b-a1f6-3aee29545a50.png)
+![image](https://user-images.githubusercontent.com/26091935/199381073-27a842bf-9e36-4c48-b182-2ca9e4b814a8.png)
+![image](https://user-images.githubusercontent.com/26091935/199381124-5eafff6d-be4c-43d2-a868-4c33c9f559cd.png)
 
-![Screenshot 2022-09-26 205411](https://user-images.githubusercontent.com/26091935/192413061-236b770a-cb98-4f4f-9e38-5175362e55da.png)
-![Screenshot 2022-09-26 205455](https://user-images.githubusercontent.com/26091935/192413063-7f41c0f7-d3a5-4095-ac21-15b3e822d4f6.png)
-![Screenshot 2022-09-26 205321](https://user-images.githubusercontent.com/26091935/192413065-42114023-f032-4a15-b193-7df874317608.png)
