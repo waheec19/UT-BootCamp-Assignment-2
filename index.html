@@ -1,100 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/Assets/style.css">
-    <title>WaheeChowdhuryPortfolio.com</title>
-</head>
-<body>
-    <header>
-        <h1>Wahee Chowdhury
-            <img alt="male" src="/Assets/images/avatar.jpg"></img>
-        </h1>
-        <nav>
-            <ol>
-                <li>
-                <button class="About-Me" id="About-Me">
-                    <a href="#About-Me">About Me</a>
-                </button>
-                </li>
-                <li>
-                <button class="Work" id="Work">
-                    <a href="#Work">Work</a>
-                </button>
-                </li>
-                <li>
-                <button class="Contact Me" id="Contact Me">
-                    <a href="#Contact-Me">Contact Me</a>
-                </button>
-                </li>
-                <li>
-                <button class="Resume" id="Resume">
-                    <a href = "Resume">Resume</a>
-                </button>
-                </li>
-            </ol>
-        </nav>
-    </header>
-    <figure></figure>
+<html lang="en-us">
 
-    <article>
-        <div class = "About-Me" id="About-Me">
-            <h2>About Me</h2>
-            <p> Hello! My name is Wahee Chowdhury. I'm a graduate of the university of texas at dallas with a degree in Mechanical Engineering.
-                 Now I am looking to pivot into a developer role! Below you can see some of the work I have done.</p>
-        </div>
+  <head>
 
-        <div class = "Work" id="Work">
-            <h2>Work</h2>
-                 <ol>
-                    <li>
-                        <a href="#surf-report">
-                            <img alt="Qries" src="/Assets/images/blue-background.jpg">
-                            Surf Report Mern Stack
-                         </a>
+      <meta charset="UTF-8">
+      <title>Wahee Chowdhury</title>
+      <meta name="viewport" content="width-device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+      <!-- navbar-->
+      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
+          <a class="navbar-brand ml-3 h1" href="#">
+
+            <img src="Assets/images/logo.png" width="200" height="120" class="d-inline-block align-center" alt="JKM Logo">
+            Wahee Chowdhury</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <!-- navbar links -->
+              <div class="container">
+                <div class="row">
+                  <div class="navbar-nav ml-auto mr-5" style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%;">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link active" href="index.html">About</a>
                     </li>
-                    <li>
-                        <a href="#led-wall">
-                            <img alt="Qries" src="/Assets/images/brown-background.jpg">
-                            Led Wall Node/IoT
-                         </a>
+                      <span class="navbar-text"> | </span>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="#Calculator">
-                            <img alt="Qries" src="/Assets/images/gray-background.jpg">
-                            Calculator React/Javascript/CSS
-                         </a>
+                      <span class="navbar-text dropdown"> | </span>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="#Pastel-Puzzles">
-                            <img alt="Qries" src="/Assets/images/tech-background.jpg">
-                            Pastel Puzzles
-                         </a>
-                    </li>
-                    <li>
-                        <a href="#Run-Buddy">
-                            <img alt="Qries" src="/Assets/images/red.jpg">
-                            Run Buddy
-                         </a>
-                    </li>
-                </ol>   
-        </div>
-        <footer> 
-            <div class="Contact-Me" id="Contact-Me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>
-                    <a href="#phone number">(214)-470-1126</a>
-                </li>
-                <li>
-                    <a href="#Email">waheechowdhury80@gmail.com</a>
-                </li>
-                <li>
-                    <a href="#Github">https://github.com/waheec19</a>
-                </li>
-            </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
-    </article>
-</body>
+      </nav>
+      <!-- navbar end  -->
+      
+      <!-- main about body -->
+      <main class="container mt-4 pb-5 d-flex flex-wrap">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="card">
+                <h1 class="card-title m-3">About Me<hr class="mt-3" style="height:1px; border:none; color:#333; background-color:#333"></h1>
+              <div class="card-body">
+                <img src="Assets/images/avatar.jpg" style="width: 50%;" class="float-md-left mr-3">
+                <p class="card-text">I'm a 24 year old male and graduated from the University of Texas with a degree in Mechanical Engineering. Currently I work as a Process Engineer but I am looking to pivot industries and become a developer! 
+                    please take a look at my work</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">   
+          </div>
+        </div>
+
+      <!-- empty space -->
+      <div class="row pb-5">
+        <div class="col-md-12">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+      <!-- end empty space -->
+    </main>
+      <!-- main about body end -->
+
+      <!-- footer -->
+        <div class="row">
+          <div class="col-md-12">
+            <footer class="page-footer fixed-bottom p-3" style="background-color: #e3f2fd;">
+              <div class="container">
+                <span class="text-muted">© 2020 Copyright: Wahee Chowdhury</span>
+              </div>
+            </footer>
+          </div>
+      </div>
+      <!-- footer end  -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
